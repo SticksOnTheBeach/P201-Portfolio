@@ -86,14 +86,14 @@ export const HeroSection = component$(() => {
 
       <div class="relative z-10 text-center px-8">
         <p class="font-mono text-[0.62rem] tracking-[0.35em] uppercase text-white/25 mb-6 animate-fade-up">
-          BUT Informatique · Année 1
+          BUT Informatique · Année 1 · 2025-2026
         </p>
         <h1
           class="font-display font-extrabold text-white leading-[0.93] tracking-tight animate-fade-up-delay-1"
           style="font-size: clamp(3rem, 9vw, 7.5rem);"
         >
-          SAÉ &amp;<br />
-          <span class="text-white/20">Compétences</span>
+          Portfolio &amp;<br />
+          <span class="text-white/20">SAE / AC</span>
         </h1>
         <p class="mt-7 text-[0.88rem] text-white/30 tracking-wide animate-fade-up-delay-2">
           Trois projets · trois apprentissages · un programme

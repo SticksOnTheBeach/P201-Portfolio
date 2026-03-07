@@ -30,7 +30,7 @@ export const Nav = component$(() => {
           class="font-mono text-[0.65rem] tracking-[0.2em] uppercase text-white/30"
           aria-label="Portfolio BUT Informatique"
         >
-          Portfolio · BUT Info
+          Portfolio · BUT Info · 2025-2026 · RETAULT Mael
         </span>
 
         <ul class="hidden md:flex gap-10 list-none" role="list">
