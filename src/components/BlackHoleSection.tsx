@@ -23,24 +23,6 @@ export const BlackHoleSection = component$(() => {
         style="background: linear-gradient(to right, rgba(0,0,0,0.93) 42%, rgba(0,0,0,0.35) 70%, rgba(0,0,0,0.05) 100%);"
       />
 
-      <div
-        class="absolute right-0 top-0 h-full z-20 hidden md:flex items-center justify-end pr-10 lg:pr-20"
-        style="width: 46%;"
-      >
-        <img
-          src="/QT_Logo.png"
-          alt="Capture d'écran du jeu SUTOM sur téléphone mobile montrant une partie en cours"
-          // loading="lazy" → ne charge l'image que quand elle est proche du viewport
-          loading="lazy"
-          // decoding="async" → décode l'image hors du thread principal
-          decoding="async"
-          width={420}
-          height={860}
-          class="h-[40vh] max-h-[200px] w-auto object-contain select-none phone-float opacity-70"
-          style="filter: drop-shadow(0 40px 80px rgba(0,0,0,0.5)) drop-shadow(0 8px 24px rgba(0,0,0,0.3));"
-          draggable={false}
-        />
-      </div>
 
       {/* Content */}
       <div class="relative z-20 max-w-lg px-12 md:px-20 flex flex-col gap-5">
