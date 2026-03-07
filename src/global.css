@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    background: #000;
+  }
+
+  body {
+    @apply bg-black text-white overflow-x-hidden;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  /* Scroll snap for each slide */
+  .slide {
+    scroll-snap-align: start;
+  }
+}
+
+@keyframes phoneFloat {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+}
+
+@layer utilities {
+  .phone-float {
+    animation: phoneFloat 4s ease-in-out infinite;
+  }
+  .text-muted {
+    color: rgba(255, 255, 255, 0.35);
+  }
+  .text-subtle {
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  /* Gradient overlay left-to-right for slides */
+  .slide-overlay {
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.92) 45%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
+  }
+
+  /* SUTOM cell colors */
+  .cell-green {
+    background: rgba(34, 197, 94, 0.22);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    color: #4ade80;
+  }
+  .cell-yellow {
+    background: rgba(234, 179, 8, 0.18);
+    border: 1px solid rgba(234, 179, 8, 0.25);
+    color: #facc15;
+  }
+  .cell-red {
+    background: rgba(239, 68, 68, 0.14);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    color: #f87171;
+  }
+  .cell-empty {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+  }
+}
