@@ -50,9 +50,12 @@ export const SutomSection = component$(() => {
       class="slide relative h-screen w-full flex items-center overflow-hidden"
     >
       
+    
       <div
-        class="absolute inset-0 z-0"
-        style="background: linear-gradient(to bottom, #0e1f3d 0%, #0a1628 35%, #060e1c 65%, #000000 100%);"
+        class="absolute inset-0 z-0 bg-[url('/sutomPHONE.png')] bg-cover bg-center blur-m scale-110 opacity-20"
+      />
+      <div
+        class="absolute inset-0 z-0 bg-gradient-to-b from-[#0a1628]/80 to-black/95"
       />
 
       {/* Left side: text content */}
@@ -72,7 +75,7 @@ export const SutomSection = component$(() => {
             class="font-display font-extrabold leading-[1.05] tracking-tight text-white"
             style="font-size: clamp(2rem, 4vw, 3.4rem);"
           >
-            Jeu SUTOM
+            SAÉ - SUTOM
           </h2>
 
           <p class="text-[0.92rem] text-white/50 leading-relaxed max-w-md">
@@ -138,7 +141,7 @@ export const SutomSection = component$(() => {
           decoding="async"
           width={420}
           height={860}
-          class="h-[86vh] max-h-[800px] w-auto object-contain select-none phone-float"
+          class="h-[86vh] max-h-[800px] w-auto object-contain select-none phone-float opacity-70"
           style="filter: drop-shadow(0 40px 80px rgba(0,0,0,0.5)) drop-shadow(0 8px 24px rgba(0,0,0,0.3));"
           draggable={false}
         />

@@ -77,7 +77,7 @@ export const BlackHoleSection = component$(() => {
         </div>
 
         <div class="flex flex-wrap gap-2">
-          <SkillChip>C++17</SkillChip>
+          <SkillChip>C++20</SkillChip>
           <SkillChip>Qt6</SkillChip>
           <SkillChip>Physique numérique</SkillChip>
           <SkillChip>MVC</SkillChip>
