@@ -6,7 +6,7 @@ const GRID: Array<{ char: string; type: "g" | "y" | "r" | "e" }[]> = [
     { char: "S", type: "g" },
     { char: "A", type: "r" },
     { char: "T", type: "y" },
-    { char: "I", type: "r" },
+    { char: "I", type: "y" },
     { char: "O", type: "y" },
     { char: "N", type: "r" },
   ],
