@@ -92,8 +92,8 @@ export const HeroSection = component$(() => {
           class="font-display font-extrabold text-white leading-[0.93] tracking-tight animate-fade-up-delay-1"
           style="font-size: clamp(3rem, 9vw, 7.5rem);"
         >
-          Portfolio &amp;<br />
-          <span class="text-white/20">SAE / AC</span>
+          Portfolio<br />
+          <span class="text-white/20">projets</span>
         </h1>
         <p class="mt-7 text-[0.88rem] text-white/30 tracking-wide animate-fade-up-delay-2">
           Trois projets · trois apprentissages · un programme
